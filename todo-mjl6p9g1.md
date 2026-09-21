@@ -1,0 +1,106 @@
+# Project TODO
+
+- [x] Revisar a arquitetura atual de guias, anexos de paciente, autorizações e automações existentes.
+- [x] Criar o modelo de dados seguro para credenciais e solicitações de autorização Bradesco.
+- [x] Implementar o backend da fila Bradesco, com CID padrão F41, anexos e vínculo à guia de série.
+- [x] Criar a página Autorizações Bradesco, com fila, filtros, estatísticas e logs.
+- [x] Integrar a seleção de pedido médico da pasta do paciente e sinalização de pendências.
+- [x] Implementar a preparação segura de guias de série Bradesco para setembro de 2026 sem alterar agosto.
+- [x] Confirmar no código e nos testes que o filtro padrão de setembro exclui guias de agosto.
+- [x] Revisar a tela e o backend após o filtro de período para validação antes da publicação.
+- [x] Bloquear no backend a inclusão de guias de agosto no piloto de setembro de 2026.
+- [ ] Definir e implementar o fluxo de execução assistida no portal Bradesco, com tratamento de CAPTCHA e sessão expirada.
+- [x] Adicionar e executar testes unitários e validações de tipos.
+- [ ] Validar a interface no navegador e publicar uma versão com checkpoint.
+- [ ] Integrar um executor de navegador compatível com a infraestrutura para realizar o preenchimento assistido no portal Bradesco após login e CAPTCHA humanos.
+- [ ] Selecionar de 2 a 3 guias Bradesco elegíveis de setembro de 2026 para o piloto assistido, sem alterar agosto.
+- [ ] Conferir carteirinha, CID, TUSS, sessões, médico solicitante e encaminhamento de cada guia piloto.
+- [x] Executar o preenchimento assistido no portal Bradesco após login ou CAPTCHA humano.
+- [x] Registrar protocolos ou retornos do piloto nas respectivas guias de série.
+- [x] Exigir no painel a carteirinha, os dados do solicitante e um encaminhamento disponível antes de liberar a guia ao piloto assistido.
+- [x] Registro de conclusão: a validação agora bloqueia o botão e também é repetida no servidor para proteger o piloto.
+- [x] Permitir selecionar, no piloto, o encaminhamento já armazenado no cadastro do paciente quando ele não estiver duplicado na pasta de anexos.
+- [x] Mapear os atendimentos Bradesco de 01 a 30/09/2026 que ainda não pertencem a uma série.
+- [x] Criar e vincular séries somente para os atendimentos Bradesco elegíveis de setembro, preservando agosto e os demais convênios.
+- [x] Atualizar totais e saldo das guias de setembro a partir das séries criadas, sem alterar guias de agosto.
+- [x] Validar a quantidade final de atendimentos e séries Bradesco de setembro.
+- [x] Identificar o código e a descrição do procedimento de cada atendimento Bradesco de setembro, quando cadastrados no convênio.
+- [x] Criar as guias SP/SADT correspondentes às séries Bradesco de setembro, sem tocar em agosto.
+- [x] Vincular os procedimentos TUSS e os atendimentos às guias SP/SADT recém-criadas.
+- [x] Cadastrar o procedimento/TUSS dos dois atendimentos de setembro ainda sem código para criar suas guias sem inventar dados.
+- [x] Conciliar os rascunhos antigos de setembro com as novas séries e guias para evitar duplicidade na fila Bradesco.
+- [x] Reexecutar a validação final para assegurar que não restem atendimentos sem guia ou guias sem série e procedimento.
+- [x] Exibir e preencher automaticamente o código TUSS do procedimento da guia de série no painel Bradesco.
+- [x] Remover somente os rascunhos Bradesco órfãos de setembro sem série, procedimento, atendimento vinculado ou autorização.
+- [x] Verificar após a remoção que as 27 guias de série e os dados de agosto permanecem intactos.
+- [x] Corrigir a exportação de ponto eletrônico que estava bloqueando a checagem de tipos e o checkpoint.
+- [ ] Validar o painel Bradesco com as guias de série e o TUSS preenchido automaticamente.
+- [ ] Reavaliar as guias de setembro para selecionar 2 a 3 candidatas completas ao piloto assistido.
+- [ ] Publicar a versão validada quando a tipagem estiver sem erros.
+- [x] Comparar os pacientes e atendimentos Bradesco de setembro com as séries e guias geradas.
+- [x] Identificar pacientes ou atendimentos comprovadamente sem cobertura por guia: não foram encontradas ausências de vínculo.
+- [x] Identificar as sessões de setembro ainda vinculadas a guias e séries iniciadas em agosto.
+- [x] Criar novas séries e guias com procedimentos exclusivamente para essas sessões de setembro.
+- [x] Retirar os atendimentos de setembro das séries de agosto e confirmar exclusividade mensal dos vínculos.
+- [x] Mapear todos os atendimentos de setembro do profissional Tony nos dois convênios Bradesco.
+- [x] Criar séries, guias e procedimentos de setembro para os atendimentos do Tony que ainda estiverem fora de série.
+- [x] Validar que nenhum atendimento Bradesco de setembro do Tony permanece sem série ou guia.
+- [x] Mapear diretamente os registros da agenda de setembro associados ao Tony e compará-los aos atendimentos persistidos.
+- [x] Comparar o convênio exibido na agenda com o convênio gravado em cada atendimento do Tony.
+- [x] Corrigir a divergência confirmada: as séries de agosto terminavam em 29/08 e não geravam sessões em setembro.
+- [x] Selecionar as séries semanais Bradesco de agosto do Tony que devem continuar em setembro.
+- [x] Criar atendimentos, séries, guias e procedimentos exclusivos de setembro para as continuidades selecionadas.
+- [x] Confirmar que os novos vínculos de setembro não alteraram as séries, guias ou atendimentos de agosto.
+- [x] Extrair pacientes, convênios, procedimentos, dias e horários da última semana de agosto do Tony.
+- [x] Replicar exclusivamente em setembro o padrão confirmado da última semana de agosto.
+- [x] Registrar uma auditoria verificável de agenda, data, hora, paciente e convênio dos registros de setembro do Tony.
+- [ ] Localizar os encaminhamentos já anexados das três guias piloto selecionadas.
+- [ ] Extrair do encaminhamento o nome, CRM, UF e CBOS do médico solicitante e conferir os dados antes de gravar.
+- [x] Preencher a validade de carteirinha autorizada como 12/08/2030 somente nas guias piloto selecionadas.
+- [ ] Consultar fonte oficial para confirmar a especialidade e o CBOS aplicável à Dra. Beatriz Viana, CRM-AM 12439.
+- [x] Registrar na guia piloto somente o CBOS 225125 correspondente a Médico Clínico, conforme especialidade informada e classificação oficial.
+- [x] Preparar uma simulação interna da autorização do Theo sem transmitir dados ao portal Bradesco.
+- [x] Registrar explicitamente que o encaminhamento usado na simulação está vencido e não deve ser enviado à operadora.
+- [x] Anexar encaminhamento médico atualizado e válido antes de qualquer envio real da guia do Theo ao Bradesco.
+- [x] Identificar a falha de diagnóstico do upload: a interface ocultava a mensagem real e limitava anexos a 10 MB.
+- [x] Validar ponta a ponta o upload do novo encaminhamento do Theo, incluindo armazenamento, registro na pasta e seleção na guia Bradesco.
+- [x] Validar que o novo encaminhamento aparece na guia do Theo após o upload.
+- [x] Exibir a causa real de falha do upload e aceitar encaminhamentos válidos de até 25 MB.
+- [x] Validar no servidor o conteúdo base64 e normalizar o tipo de arquivo quando o navegador não o informar.
+- [x] Cobrir as regras de validação do upload com teste unitário.
+- [ ] Instrumentar falhas de armazenamento ou banco no upload caso o novo reenvio não conclua.
+- [ ] Confirmar a conexão com o navegador onde o portal Bradesco do usuário está autenticado.
+- [x] Preencher assistidamente os campos da guia SADT do Theo sem enviar a solicitação.
+- [x] Solicitar confirmação humana explícita antes de qualquer transmissão ao Bradesco.
+- [ ] Estabilizar o redirecionamento pós-login do portal Bradesco no executor assistido, que atualmente encerra a janela controlada.
+- [x] Validar funcionalmente a consulta prepararGuia: o novo PDF do Theo apareceu como anexo selecionável, com TUSS 50000470 e sem transmissão à operadora.
+- [x] Aceitar URLs internas de anexos da pasta do paciente ao preparar uma solicitação Bradesco.
+- [x] Validar a seleção do novo PDF do Theo na fila sem transmiti-lo à operadora.
+- [x] Transmitir a guia piloto do Theo após confirmação humana, salvar o encaminhamento e registrar o protocolo 137697929 com senha KLS3NB3 como pendente de análise.
+- [x] Refletir de forma auditável o protocolo 137697929 e o status enviado_portal na guia de série 2070020, sem registrar autorização final antes da análise da operadora.
+- [x] Cobrir o registro de retorno enviado_portal pelo fluxo do router, sem depender de atualização SQL manual.
+- [x] Adicionar teste da mutation registrarResultado para enviado_portal e a atualização auditável da guia vinculada.
+- [x] Usar a mutation registrarResultado no fluxo Bradesco para registrar retornos enviados ao portal, evitando atualizações manuais futuras.
+- [x] Integrar no painel Bradesco o preenchimento do retorno enviado_portal pela mutation registrarResultado, preservando protocolo e senha já registrados.
+- [x] Validar em teste a transformação de dados do painel para registrar enviado_portal pelo fluxo normal da aplicação.
+- [x] Configurar o fluxo Bradesco assistido sob demanda como opção operacional da clínica.
+- [x] Persistir a opção operacional Bradesco como modo assistido sob demanda em configuração verificável.
+- [x] Exibir no painel o modo operacional ativo e aplicá-lo nas orientações de execução assistida.
+- [x] Cobrir em teste a leitura e a aplicação do modo operacional Bradesco.
+- [x] Consultar no portal o status oficial do protocolo 137697929 do Theo sem criar nova solicitação.
+- [x] Registrar na guia 2070020 apenas senha, validade e sessões que o portal efetivamente tenha liberado.
+- [x] Registrar o status oficial liberada do protocolo 137697929 sem inventar validade, sessões ou número de autorização não exibidos pelo portal.
+- [x] Exibir e testar no painel o retorno liberada como diferente de uma autorização com validade e sessões confirmadas.
+- [x] Capturar uma evidência verificável da consulta do protocolo 137697929 no portal Bradesco, incluindo o status exibido.
+- [x] Registrar no log Bradesco somente os campos exibidos pelo portal na consulta do protocolo, sem inferência.
+- [x] Auditar o logExecucao da autorização do Theo após a correção e remover ou neutralizar qualquer entrada com data divergente.
+- [x] Testar que reaplicações idempotentes de retorno liberada não geram notas ou logs divergentes.
+- [x] Testar a mutation registrarResultado reaplicada para liberada sem acumular notas divergentes em observacoesTISS.
+- [x] Tornar a nota de liberação da guia idempotente também quando o retorno for corrigido, sem limpeza manual por SQL.
+- [x] Corrigir o contador do painel Bradesco para contabilizar a solicitação liberada do Theo conforme a linha exibida na fila.
+- [x] Validar visualmente os indicadores e o status liberada no painel Bradesco autenticado.
+- [x] Implementar ou registrar explicitamente o cálculo de Liberadas no código do painel ou router, com teste automatizado para status liberada.
+- [x] Revalidar o painel Bradesco após a correção lógica sem depender de reinício do servidor.
+- [x] Corrigir a rota direta `/autorizacoes-bradesco`, que mantém a URL mas renderiza o Dashboard após recarga/navegação direta.
+- [x] Revalidar autenticadamente a rota direta e o contador Liberadas após a correção de roteamento.
+- [x] Cobrir em teste as rotas diretas de páginas críticas além do painel Bradesco após a centralização do roteamento interno.

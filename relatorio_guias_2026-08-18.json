@@ -1,0 +1,46 @@
+{
+  "data": "2026-08-18",
+  "modo": "aplicar",
+  "profissionaisSelecionados": [
+    570009
+  ],
+  "atendimentosEncontrados": 1,
+  "atendimentosElegiveis": 1,
+  "gruposElegiveis": 1,
+  "bloqueados": [],
+  "grupos": [
+    {
+      "paciente": "ALINE ALCANTARA",
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "GEAP",
+      "serieId": "programacao-20260818-avulso-1860123",
+      "atendimentoIds": [
+        1860123
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 42.32,
+      "origemProcedimento": "atendimento"
+    }
+  ],
+  "criadas": [
+    {
+      "guiaId": 3180001,
+      "numeroGuia": "AMN0001860123",
+      "paciente": "ALINE ALCANTARA",
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "sessoes": 1,
+      "valorTotal": "42.32"
+    }
+  ],
+  "vinculadas": [
+    {
+      "guiaId": 3180001,
+      "numeroGuia": "AMN0001860123",
+      "paciente": "ALINE ALCANTARA",
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "atendimentoIds": [
+        1860123
+      ]
+    }
+  ]
+}

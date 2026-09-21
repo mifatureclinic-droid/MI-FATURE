@@ -1,0 +1,472 @@
+{
+  "data": "2026-08-14",
+  "modo": "simulacao",
+  "atendimentosEncontrados": 72,
+  "atendimentosElegiveis": 49,
+  "gruposElegiveis": 49,
+  "bloqueados": [
+    {
+      "atendimentoId": 3510001,
+      "paciente": "FERNANDA CASTELO BRANCO TAVARES",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "BRADESCO SAUDE",
+      "motivo": "Paciente sem número de carteirinha."
+    },
+    {
+      "atendimentoId": 6600017,
+      "paciente": "FERNANDA CASTELO BRANCO TAVARES",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "BRADESCO SAUDE",
+      "motivo": "Paciente sem número de carteirinha."
+    },
+    {
+      "atendimentoId": 1830622,
+      "paciente": "ALINE STEPHANIE BARROSO BEZERRA",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 2310003,
+      "paciente": "ALMINO FLÁVIO ALEIXO JÚNIOR",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "BRADESCO SAUDE",
+      "motivo": "Paciente sem número de carteirinha."
+    },
+    {
+      "atendimentoId": 1830643,
+      "paciente": "ALEXANDRE MARTINS SOARES FILHO",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830647,
+      "paciente": "GUSTAVO DE ALMEIDA PONTES",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 2370003,
+      "paciente": "ALZIRA MARIA MARANHAO DA CRUZ",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830642,
+      "paciente": "YAGO NEGRAO MOREIRA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830649,
+      "paciente": "ADRIEL FERNANDES SILVA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "Saúde Caixa",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830655,
+      "paciente": "BERNARDO BRAZAO CARDOSO",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830664,
+      "paciente": "LUCA RIBEIRO DOS SANTOS CASTRO",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830671,
+      "paciente": "CALEBE PEREIRA SILVA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830670,
+      "paciente": "ANA LUISA MUNIZ DOS REIS",
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "AFFEAM SAÚDE",
+      "motivo": "Paciente sem número de carteirinha."
+    },
+    {
+      "atendimentoId": 3420018,
+      "paciente": "ANA CLARA SILVA MOTA",
+      "profissional": "TERESA CRISTINA SEVERINO",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830550,
+      "paciente": "JULIANA FERREIRA GOMES",
+      "profissional": "TERESA CRISTINA SEVERINO",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 4200002,
+      "paciente": "ALBERGLACY POLLARI ARAÚJO",
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "GEAP",
+      "motivo": "Paciente sem número de carteirinha."
+    },
+    {
+      "atendimentoId": 1860254,
+      "paciente": "SAULO RIBEIRO NUNES",
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "PROASA PARÁ",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830638,
+      "paciente": "ADALBERTO JOSE DE BRITO",
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 5760004,
+      "paciente": "RIO MAR DE SOUSA VIANA",
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "LUMINAR SAÚDE",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 4980001,
+      "paciente": "ENIO GUILHERME SILVEIRA DA MATA",
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830654,
+      "paciente": "JOSÉ SIRLEY PAULO SOUZA",
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "Particular",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830668,
+      "paciente": "ISAEL RODRIGUES DE SOUZA",
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "LUMINAR SAÚDE",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    },
+    {
+      "atendimentoId": 1830674,
+      "paciente": "NATHALIA GIANINE NEGREIROS DA SILVA",
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    }
+  ],
+  "grupos": [
+    {
+      "paciente": "LETICIA MIRIAN SILVA DE BASTOS",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "69f235ee-5602-4366-b336-dc2f592ff476",
+      "atendimentoIds": [
+        3540002
+      ],
+      "procedimento": "50001221 — CONSULTA AMBULATORIAL EM PSICOLOGIA",
+      "valorUnitario": 52.99,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "MARIO AUGUSTO BARRETO DO NASCIMENTO",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "serieId": "69bc0f0a-5033-4cf6-9db9-77fb565faf87",
+      "atendimentoIds": [
+        4230002
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 50,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "FRANCINARA DE SOUZA SENA",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "serieId": "serie-1785861616384-08vjn6",
+      "atendimentoIds": [
+        3600002
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "Samara da Silva Pereira",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "cefab24f-efc9-4568-aa40-715a2a7241a0",
+      "atendimentoIds": [
+        4290002
+      ],
+      "procedimento": "50001221 — CONSULTA AMBULATORIAL EM PSICOLOGIA",
+      "valorUnitario": 52.99,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "VINICIUS FERNANDES NEGREIROS",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "Proasa Saúde",
+      "serieId": "serie-1785861674686-nnhiaj",
+      "atendimentoIds": [
+        3600009
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 50,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "KEITE ANA DA SILVA RODRIGUES",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "PROASA PARÁ",
+      "serieId": "programacao-20260814-avulso-1830640",
+      "atendimentoIds": [
+        1830640
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 50,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "MONALISA NAIR DE ARAÚJO FREIRE",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "PROASA PARÁ",
+      "serieId": "programacao-20260814-avulso-1830644",
+      "atendimentoIds": [
+        1830644
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 50,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "MARCILENE MOREIRA DE SOUZA",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "GEAP",
+      "serieId": "6b72e4d0-7cbd-49ec-8caf-3648493aa147",
+      "atendimentoIds": [
+        6600001
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 42.32,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "PAULA DE OLIVEIRA SARRAF",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "ac5a02aa-52c2-48de-be7d-6d1fd2dae172",
+      "atendimentoIds": [
+        6600005
+      ],
+      "procedimento": "50001221 — CONSULTA AMBULATORIAL EM PSICOLOGIA",
+      "valorUnitario": 52.99,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "ELIEGE PEREIRA DANIEL",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "GEAP",
+      "serieId": "convenio-600005-avulso-1830163",
+      "atendimentoIds": [
+        6600013
+      ],
+      "procedimento": "50001183 — SESSÃO EM PSICOLOGIA INDIVIDUAL",
+      "valorUnitario": 67.19,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "JOSÉ WILSON DO NASCIMENTO CORRÊA",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "GEAP",
+      "serieId": "programacao-20260814-avulso-1830624",
+      "atendimentoIds": [
+        1830624
+      ],
+      "procedimento": "50001183 — SESSÃO EM PSICOLOGIA INDIVIDUAL",
+      "valorUnitario": 67.19,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "ISADORA MARIA SANTOS DA SILVA",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260814-avulso-1830628",
+      "atendimentoIds": [
+        1830628
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "MARILEIDE RIBEIRO BONFIM",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "PETROBRAS AMS",
+      "serieId": "programacao-20260814-avulso-1830631",
+      "atendimentoIds": [
+        1830631
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 57,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "ELENICY LIMA BATALHA CARLOS",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "GEAP",
+      "serieId": "programacao-20260814-avulso-1830634",
+      "atendimentoIds": [
+        1830634
+      ],
+      "procedimento": "50001183 — SESSÃO EM PSICOLOGIA INDIVIDUAL",
+      "valorUnitario": 67.19,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "KATHARINA CRUZ ROSAS DE AZEVEDO",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "serieId": "programacao-20260814-avulso-1830635",
+      "atendimentoIds": [
+        1830635
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "RAISSA FERREIRA MARIA",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "PROASA PARÁ",
+      "serieId": "programacao-20260814-avulso-1830639",
+      "atendimentoIds": [
+        1830639
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 50,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "MATHEUS MENEZES DA SILVA",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "PETROBRAS AMS",
+      "serieId": "programacao-20260814-avulso-1830652",
+      "atendimentoIds": [
+        1830652
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 57,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "FLÁVIO MACIEL LEAL",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "GEAP",
+      "serieId": "programacao-20260814-avulso-1830660",
+      "atendimentoIds": [
+        1830660
+      ],
+      "procedimento": "50001183 — SESSÃO EM PSICOLOGIA INDIVIDUAL",
+      "valorUnitario": 67.19,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "NATHALIA TOSHIE ARAUJO TAKASHIMA",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260814-avulso-1830665",
+      "atendimentoIds": [
+        1830665
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "GLENDA KAREN DE CASTRO CAUPER",
+      "profissional": "JAIRO DE ASSIS MASCAREN",
+      "convenio": "Proasa Saúde",
+      "serieId": "serie-1785527610026-c9gext",
+      "atendimentoIds": [
+        2340007
+      ],
+      "procedimento": "84250127 — AVAL. NEUROPSICOLOGA SESSÕES SUBSEQUENTES",
+      "valorUnitario": 90,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "MARCOS CÉSAR MITOUSO SILVA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "PROASA PARÁ",
+      "serieId": "programacao-20260814-avulso-1830636",
+      "atendimentoIds": [
+        1830636
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 50,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "MANUELLA GIVONE DA SILVA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "serieId": "programacao-20260814-avulso-1830658",
+      "atendimentoIds": [
+        1830658
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "MANUELLA GIVONE DA SILVA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "serieId": "ea25e6df-4f66-42d2-bed9-bb692c88df6d",
+      "atendimentoIds": [
+        5070002
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "ALICE SOPHIA BARBOSA MELO",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260814-avulso-1830667",
+      "atendimentoIds": [
+        1830667
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "histórico único"
+    },
+    {
+      "paciente": "PEDRO RAMIRES SILVA DA SILVA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260814-avulso-1830676",
+      "atendimentoIds": [
+        1830676
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "histórico único"
+    }
+  ]
+}

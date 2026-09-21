@@ -1,0 +1,913 @@
+{
+  "data": "2026-09-10",
+  "horaAtualManaus": "16:31",
+  "modo": "aplicado",
+  "profissionaisSelecionados": [
+    570008
+  ],
+  "atendimentosSelecionados": [],
+  "enviados": [],
+  "pendentes": [
+    {
+      "atendimentoId": 20460002,
+      "paciente": "IAN VICTOR DA CONCEIÇÃO SILVA",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "13:00",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 21090001,
+      "paciente": "RICARDO RAMOS GONÇALVES DE CASTRO",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "13:30",
+      "motivo": "já_assinado"
+    },
+    {
+      "atendimentoId": 20520002,
+      "paciente": "BENICIO MARÇAL RODRIGUES SOARES",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "14:00",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20520009,
+      "paciente": "CAIO EMANUEL MORAIS GOMES SOARES",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "14:30",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20580002,
+      "paciente": "ARTHUR BARROS GOES",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "15:00",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20610002,
+      "paciente": "LUISA BARROS GOES",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "15:30",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20640002,
+      "paciente": "MANUELLA CRUZ NORONHA",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "16:00",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20640006,
+      "paciente": "VALENTINA DE SOUZA PEREIRA DO NASCIMENTO",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "16:30",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20670002,
+      "paciente": "BARBARA DE SOUZA PEREIRA DO NASCIMENTO",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:00",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 22080001,
+      "paciente": "ISABELA ALMEIDA PINTO",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:30",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20730002,
+      "paciente": "RAFAEL YUJI SARAIVA NUNOMURA",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "GEAP",
+      "horario": "18:00",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20730006,
+      "paciente": "ANA ELISA JUNCA NOGUEIRA ASSUMPÇÃO PONTES",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "GEAP",
+      "horario": "18:30",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20730010,
+      "paciente": "CLARA MELINDA DUTRA SORAS",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "19:00",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    },
+    {
+      "atendimentoId": 20730014,
+      "paciente": "CARLOS ANTONIO OLIVEIRA DOS SANTOS SEGUNDO",
+      "profissionalId": 570008,
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "GEAP",
+      "horario": "19:30",
+      "motivo": "falha_no_envio",
+      "detalhe": "TypeError: fetch failed"
+    }
+  ],
+  "foraDoEscopo": [
+    {
+      "atendimentoId": 23670001,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 23700001,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 23730001,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 23850001,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 19560002,
+      "paciente": "INGRID FERRAG DE OLIVIERA PIRES",
+      "profissionalId": 570006,
+      "profissional": "ISABELE LOPES RODRIGUES",
+      "convenio": "Saúde Caixa",
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 23760001,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 20130002,
+      "paciente": "PEDRO KAL EL MENEZES DE AZEVEDO",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 23820001,
+      "paciente": "GLEYCE CAVALCANTE DE SANTANA",
+      "profissionalId": 1650002,
+      "profissional": "KATIA MARIA MARINHO DA COSTA",
+      "convenio": "FUSEX",
+      "horario": "09:00"
+    },
+    {
+      "atendimentoId": 23760002,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "10:00"
+    },
+    {
+      "atendimentoId": 23730002,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "10:00"
+    },
+    {
+      "atendimentoId": 23670002,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "10:00"
+    },
+    {
+      "atendimentoId": 23700002,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "10:00"
+    },
+    {
+      "atendimentoId": 23850002,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "10:00"
+    },
+    {
+      "atendimentoId": 20160002,
+      "paciente": "MOISES GARCES MARQUES",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "10:00"
+    },
+    {
+      "atendimentoId": 20160006,
+      "paciente": "RAIMUNDO ALCIMAR LUCAS NETO",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "horario": "10:30"
+    },
+    {
+      "atendimentoId": 23700003,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "11:00"
+    },
+    {
+      "atendimentoId": 23760003,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "11:00"
+    },
+    {
+      "atendimentoId": 5610005,
+      "paciente": "RUBEMAR ALVES DA SILVA",
+      "profissionalId": 570015,
+      "profissional": "TERESA CRISTINA SEVERINO",
+      "convenio": "Particular",
+      "horario": "11:00"
+    },
+    {
+      "atendimentoId": 23850003,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "11:00"
+    },
+    {
+      "atendimentoId": 23670003,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "11:00"
+    },
+    {
+      "atendimentoId": 23730003,
+      "paciente": "Paciente Lembrete Teste",
+      "profissionalId": null,
+      "profissional": null,
+      "convenio": null,
+      "horario": "11:00"
+    },
+    {
+      "atendimentoId": 20220002,
+      "paciente": "JOSE SAMPAIO SOBRINHO",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "horario": "11:20"
+    },
+    {
+      "atendimentoId": 14280002,
+      "paciente": "GEORGE LUCAS SILVA DE SOUSA",
+      "profissionalId": 1650002,
+      "profissional": "KATIA MARIA MARINHO DA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "12:00"
+    },
+    {
+      "atendimentoId": 20340002,
+      "paciente": "GEORGE LUCAS SILVA DE SOUSA",
+      "profissionalId": 1650002,
+      "profissional": "KATIA MARIA MARINHO DA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "12:30"
+    },
+    {
+      "atendimentoId": 14220002,
+      "paciente": "ANA LIVIA OURO DE SOUZA DOS SANTOS",
+      "profissionalId": 1650002,
+      "profissional": "KATIA MARIA MARINHO DA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "13:00"
+    },
+    {
+      "atendimentoId": 18090002,
+      "paciente": "ANTONIO JORGE BARBOSA DA SILVA",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "Particular",
+      "horario": "13:00"
+    },
+    {
+      "atendimentoId": 20250002,
+      "paciente": "MARCUS VINICIUS BEZERRA",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "13:00"
+    },
+    {
+      "atendimentoId": 22230002,
+      "paciente": "JESSICA SAMARA BEZERRA GUIMARAES",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "13:00"
+    },
+    {
+      "atendimentoId": 17880002,
+      "paciente": "MATHEUS NORONHA BARBOSA DE LIMA",
+      "profissionalId": 570003,
+      "profissional": "LORIENE MELO DO NASCIMENTO",
+      "convenio": "Proasa Saúde",
+      "horario": "13:00"
+    },
+    {
+      "atendimentoId": 20370002,
+      "paciente": "ANA LIVIA OURO DE SOUZA DOS SANTOS",
+      "profissionalId": 1650002,
+      "profissional": "KATIA MARIA MARINHO DA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "13:30"
+    },
+    {
+      "atendimentoId": 18090006,
+      "paciente": "MARCOS BATISTA MACHADO",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "GEAP",
+      "horario": "13:30"
+    },
+    {
+      "atendimentoId": 22230006,
+      "paciente": "JESSICA SAMARA BEZERRA GUIMARAES",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "13:30"
+    },
+    {
+      "atendimentoId": 20250006,
+      "paciente": "RICARDO DE SOUZA ARAÚJO",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "GEAP",
+      "horario": "13:40"
+    },
+    {
+      "atendimentoId": 20970002,
+      "paciente": "JESSIKA NEURY ANNE ARAGAO DA SILVA ABREU",
+      "profissionalId": 570003,
+      "profissional": "LORIENE MELO DO NASCIMENTO",
+      "convenio": "Proasa Saúde",
+      "horario": "14:00"
+    },
+    {
+      "atendimentoId": 22230010,
+      "paciente": "SARA DE ALMEIDA BESSA AVELINO",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "14:00"
+    },
+    {
+      "atendimentoId": 18090010,
+      "paciente": "R PHAEL LIMA SABBA GUIMARAES VIEIRA",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "GEAP",
+      "horario": "14:00"
+    },
+    {
+      "atendimentoId": 22230014,
+      "paciente": "SARA DE ALMEIDA BESSA AVELINO",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "14:30"
+    },
+    {
+      "atendimentoId": 20250014,
+      "paciente": "SEVERINO CORREA DO NASCIMENTO JR",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "14:30"
+    },
+    {
+      "atendimentoId": 16080026,
+      "paciente": "DANIELE DE SOUZA MOLDES",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "14:30"
+    },
+    {
+      "atendimentoId": 16080030,
+      "paciente": "PRISCILA ABINADER RIBEIRO DA SILVA",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "GEAP",
+      "horario": "15:00"
+    },
+    {
+      "atendimentoId": 3450117,
+      "paciente": "MARIA AUXILIADORA CAVALCANTE DE MELO",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "15:00"
+    },
+    {
+      "atendimentoId": 19320002,
+      "paciente": "AGEORLEI SILVA MEDRADO",
+      "profissionalId": 570003,
+      "profissional": "LORIENE MELO DO NASCIMENTO",
+      "convenio": "Proasa Saúde",
+      "horario": "15:00"
+    },
+    {
+      "atendimentoId": 16860002,
+      "paciente": "ANNA PAULA DA COSTA SOARES",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "15:00"
+    },
+    {
+      "atendimentoId": 18090018,
+      "paciente": "PAULO ROBERTO NOVO SIMÕES",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "GEAP",
+      "horario": "15:00"
+    },
+    {
+      "atendimentoId": 22260002,
+      "paciente": "JOANA BEATRIZ MAIA CASTRO",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "15:00"
+    },
+    {
+      "atendimentoId": 3450092,
+      "paciente": "PEDRO PAULO VEIGA SARAIVA",
+      "profissionalId": 570006,
+      "profissional": "ISABELE LOPES RODRIGUES",
+      "convenio": "GEAP",
+      "horario": "15:00"
+    },
+    {
+      "atendimentoId": 16740002,
+      "paciente": "GLEYCE CAVALCANTE DE SANTANA",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "FUSEX",
+      "horario": "15:30"
+    },
+    {
+      "atendimentoId": 20280006,
+      "paciente": "DANTE PAOLUCCI SALES DE LIMA",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "GEAP",
+      "horario": "15:30"
+    },
+    {
+      "atendimentoId": 16140002,
+      "paciente": "ANA LUCIA VIANA SOARES",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "GEAP",
+      "horario": "15:30"
+    },
+    {
+      "atendimentoId": 18090022,
+      "paciente": "IGOR MENEZES SALES VIEIRA",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "GEAP",
+      "horario": "15:30"
+    },
+    {
+      "atendimentoId": 16050002,
+      "paciente": "HANNA PEREIRA DE MELO ROCHA",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "GEAP",
+      "horario": "15:30"
+    },
+    {
+      "atendimentoId": 22260006,
+      "paciente": "JOANA BEATRIZ MAIA CASTRO",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "15:30"
+    },
+    {
+      "atendimentoId": 16140006,
+      "paciente": "ARTEDES POLARI DE ALCANTARA MADEIRA",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "GEAP",
+      "horario": "16:00"
+    },
+    {
+      "atendimentoId": 19350003,
+      "paciente": "ANTONIA CLAUDIA RODRIGUES DOS SANTOS",
+      "profissionalId": 570003,
+      "profissional": "LORIENE MELO DO NASCIMENTO",
+      "convenio": "Proasa Saúde",
+      "horario": "16:00"
+    },
+    {
+      "atendimentoId": 23430022,
+      "paciente": "MELISSA VITORIA BIZERRIL DA SILVA",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "MENTE ABERTA",
+      "horario": "16:00"
+    },
+    {
+      "atendimentoId": 22260010,
+      "paciente": "MICHELE CONCEIÇÃO SILVA MARTINS",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "16:00"
+    },
+    {
+      "atendimentoId": 16050007,
+      "paciente": "MARCELY CRISTINY ANDRADE DA SILVA",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "GEAP",
+      "horario": "16:00"
+    },
+    {
+      "atendimentoId": 20280010,
+      "paciente": "MARCELO AUGUSTO DE LIMA BRASIL",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "GEAP",
+      "horario": "16:00"
+    },
+    {
+      "atendimentoId": 21480002,
+      "paciente": "THEO BRANDÃO GUIMARÃES",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "16:00"
+    },
+    {
+      "atendimentoId": 16140010,
+      "paciente": "ISABELLE FIORAVANTE SAMPAIO",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "Particular",
+      "horario": "16:30"
+    },
+    {
+      "atendimentoId": 18120002,
+      "paciente": "ANTONIO CARLOS DE OLIVEIRA",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "horario": "16:30"
+    },
+    {
+      "atendimentoId": 16050011,
+      "paciente": "ESTHEFANIE RODRIGUES BARROS",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "PETROBRAS AMS",
+      "horario": "16:30"
+    },
+    {
+      "atendimentoId": 22260014,
+      "paciente": "MICHELE CONCEIÇÃO SILVA MARTINS",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "16:30"
+    },
+    {
+      "atendimentoId": 20280018,
+      "paciente": "FÁBIO BARBOSA PASSOS",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "GEAP",
+      "horario": "16:40"
+    },
+    {
+      "atendimentoId": 22260018,
+      "paciente": "KETHELY ADELAIDE ACIPAR ROCHA",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:00"
+    },
+    {
+      "atendimentoId": 16050018,
+      "paciente": "ANDREA ARAÚJO MOREIRA",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "GEAP",
+      "horario": "17:00"
+    },
+    {
+      "atendimentoId": 16200006,
+      "paciente": "KELLY FEITOZA HASHIMOTO",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "PETROBRAS AMS",
+      "horario": "17:00"
+    },
+    {
+      "atendimentoId": 7200010,
+      "paciente": "LUCAS GOMES AFONSO",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:00"
+    },
+    {
+      "atendimentoId": 21060001,
+      "paciente": "ANA CAROLINA BARBOSA RIBEIRO",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:00"
+    },
+    {
+      "atendimentoId": 20070002,
+      "paciente": "RAQUEL DUTRA BENTES",
+      "profissionalId": 570003,
+      "profissional": "LORIENE MELO DO NASCIMENTO",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:00"
+    },
+    {
+      "atendimentoId": 20280014,
+      "paciente": "CLEBER ARAUJO GOMES",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "GEAP",
+      "horario": "17:00"
+    },
+    {
+      "atendimentoId": 20100002,
+      "paciente": "RAQUEL DUTRA BENTES",
+      "profissionalId": 570003,
+      "profissional": "LORIENE MELO DO NASCIMENTO",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:30"
+    },
+    {
+      "atendimentoId": 18150006,
+      "paciente": "WILSON NORIVAL PEREZ BRICEÑO JÚNIOR",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "GEAP",
+      "horario": "17:30"
+    },
+    {
+      "atendimentoId": 22260022,
+      "paciente": "KETHELY ADELAIDE ACIPAR ROCHA",
+      "profissionalId": 570009,
+      "profissional": "THIFFANE FERREIRA COSTA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:30"
+    },
+    {
+      "atendimentoId": 16170006,
+      "paciente": "MIRNA FEITOZA PEREIRA",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "GEAP",
+      "horario": "17:30"
+    },
+    {
+      "atendimentoId": 21180001,
+      "paciente": "KANANDA BARROS SILVA",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "17:30"
+    },
+    {
+      "atendimentoId": 16080014,
+      "paciente": "ISABELE CRISTINE DE SOUZA MACIEL",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "GEAP",
+      "horario": "17:30"
+    },
+    {
+      "atendimentoId": 16170010,
+      "paciente": "ROGER DE ANDRADE DE QUEIROZ",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "horario": "18:00"
+    },
+    {
+      "atendimentoId": 2670004,
+      "paciente": "RAFAEL PORTELA LIMA DA SILVA",
+      "profissionalId": 570003,
+      "profissional": "LORIENE MELO DO NASCIMENTO",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "18:00"
+    },
+    {
+      "atendimentoId": 20280022,
+      "paciente": "NATHALYA DORZANI HIN",
+      "profissionalId": 570007,
+      "profissional": "NAYARA MARQUES DA SILVA TAVARES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "18:00"
+    },
+    {
+      "atendimentoId": 16080006,
+      "paciente": "GEORGE LUCAS OLIVEIRA BARBOSA",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "GEAP",
+      "horario": "18:00"
+    },
+    {
+      "atendimentoId": 18180006,
+      "paciente": "ADENILTON DOS SANTOS BARROSO",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "GEAP",
+      "horario": "18:00"
+    },
+    {
+      "atendimentoId": 23220001,
+      "paciente": "MARIA RITA MOREIRA DE LIMA",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "VALE SAÚDE",
+      "horario": "18:00"
+    },
+    {
+      "atendimentoId": 16080010,
+      "paciente": "TIAGO GABRIEL DA SILVA BEZERRA",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "COMPANHIA NACIONAL DE ABASTECIMENTO - CONAB",
+      "horario": "18:30"
+    },
+    {
+      "atendimentoId": 16170014,
+      "paciente": "ARLEANNY INGREDY MONTEIRO FREITAS",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "18:30"
+    },
+    {
+      "atendimentoId": 18180010,
+      "paciente": "LISANGELA ALVES DA COSTA",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "18:30"
+    },
+    {
+      "atendimentoId": 21300001,
+      "paciente": "SAMERNY GAMA NOLORVES BATISTA",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "horario": "18:30"
+    },
+    {
+      "atendimentoId": 16770002,
+      "paciente": "RAVI BONFIM LOPES",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "GEAP",
+      "horario": "19:00"
+    },
+    {
+      "atendimentoId": 23340001,
+      "paciente": "WESCLEY SILVA E SILVA",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "19:00"
+    },
+    {
+      "atendimentoId": 16200002,
+      "paciente": "CRISTOVÃO LIMEIRA DA SILVA",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "19:00"
+    },
+    {
+      "atendimentoId": 16080018,
+      "paciente": "ELLEN REGO DE SOUZA",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "GEAP",
+      "horario": "19:00"
+    },
+    {
+      "atendimentoId": 21960001,
+      "paciente": "GABRIELE CAMARA DA ENCARNAÇÃO",
+      "profissionalId": 570010,
+      "profissional": "SILMARA ELIZANDRA BARBOSA BORGES",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "19:30"
+    },
+    {
+      "atendimentoId": 16080022,
+      "paciente": "ARMSTRONG MONTEIRO MARQUES",
+      "profissionalId": 570001,
+      "profissional": "ANGELA ALVES SANDES",
+      "convenio": "Saúde Caixa",
+      "horario": "19:30"
+    },
+    {
+      "atendimentoId": 23310001,
+      "paciente": "SAMILLY DA SILVA AMORIM",
+      "profissionalId": 570005,
+      "profissional": "TONY JOSÉ DA SILVA MOURA",
+      "convenio": "BRADESCO SAUDE",
+      "horario": "19:30"
+    },
+    {
+      "atendimentoId": 14820002,
+      "paciente": "PATRICIA DE ALMEIDA PESTANA",
+      "profissionalId": 570004,
+      "profissional": "SUZY JESUS DA SILVA",
+      "convenio": "Proasa Saúde",
+      "horario": "19:30"
+    }
+  ]
+}

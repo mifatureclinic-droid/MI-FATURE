@@ -1,0 +1,387 @@
+{
+  "modo": "simulacao",
+  "geradoEm": "2026-08-12T02:22:24.134Z",
+  "atendimentosCandidatos": 54,
+  "gruposProcessaveis": 0,
+  "gruposBloqueados": 47,
+  "bloqueados": [
+    {
+      "convenio": "AFFEAM SAÚDE",
+      "atendimentoIds": [
+        1830094
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "AFFEAM SAÚDE",
+      "atendimentoIds": [
+        1830346
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "atendimentoIds": [
+        3480002
+      ],
+      "serieId": null,
+      "motivo": "Paciente sem número de carteirinha."
+    },
+    {
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "atendimentoIds": [
+        1830333
+      ],
+      "serieId": "ea25e6df-4f66-42d2-bed9-bb692c88df6d",
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "atendimentoIds": [
+        1830095
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "atendimentoIds": [
+        1830044
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "BRADESCO SAÚDE - OPERADORA DE PLANOS S/A",
+      "atendimentoIds": [
+        1830499
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        4200001
+      ],
+      "serieId": "serie-1785947146369-chghxn",
+      "motivo": "Paciente sem número de carteirinha."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        3450206
+      ],
+      "serieId": "e84e3ba7-c4c1-4d11-961d-2ba19b0acc28",
+      "motivo": "Série possui procedimentos distintos."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830234
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        3450132
+      ],
+      "serieId": "508839cb-e690-477f-9c43-a456c2cf056b",
+      "motivo": "Série possui procedimentos distintos."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        3450133
+      ],
+      "serieId": "906295a9-1306-4db3-b8e3-0b91bda5987f",
+      "motivo": "Série possui procedimentos distintos."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        3450134
+      ],
+      "serieId": "2eb39f31-e65f-4765-bfe2-470fe72ab2ce",
+      "motivo": "Série possui procedimentos distintos."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830276
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830282
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830289
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830038
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1860061
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830034
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830047
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830049
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1860014
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        4020001,
+        4020002
+      ],
+      "serieId": "serie-1785944231272-2wc5ee",
+      "motivo": "Série possui procedimentos distintos."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1860097
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1860098
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830075
+      ],
+      "serieId": "6d8c3db8-e41b-4330-a770-4605ea382a67",
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1830084
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "GEAP",
+      "atendimentoIds": [
+        1860109
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PROASA PARÁ",
+      "atendimentoIds": [
+        6360002
+      ],
+      "serieId": "serie-1786477958192-okovvr",
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PROASA PARÁ",
+      "atendimentoIds": [
+        1830467
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PROASA PARÁ",
+      "atendimentoIds": [
+        1830144
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PROASA PARÁ",
+      "atendimentoIds": [
+        1830146
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PROASA PARÁ",
+      "atendimentoIds": [
+        1830082
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PROASA PARÁ",
+      "atendimentoIds": [
+        1830428
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PROASA PARÁ",
+      "atendimentoIds": [
+        1830096
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "COMPANHIA NACIONAL DE ABASTECIMENTO - CONAB",
+      "atendimentoIds": [
+        1830008
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "COMPANHIA NACIONAL DE ABASTECIMENTO - CONAB",
+      "atendimentoIds": [
+        1830359
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "LUMINAR SAÚDE",
+      "atendimentoIds": [
+        1830245
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "LUMINAR SAÚDE",
+      "atendimentoIds": [
+        1830012
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "LUMINAR SAÚDE",
+      "atendimentoIds": [
+        1830363
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "OAB",
+      "atendimentoIds": [
+        1830019
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PETROBRAS AMS",
+      "atendimentoIds": [
+        1830113
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PETROBRAS AMS",
+      "atendimentoIds": [
+        1830081
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "PETROBRAS AMS",
+      "atendimentoIds": [
+        1830134
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "atendimentoIds": [
+        1830227
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "atendimentoIds": [
+        1830339
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    },
+    {
+      "convenio": "POSTAL SAUDE (CORREIOS)",
+      "atendimentoIds": [
+        1830347
+      ],
+      "serieId": null,
+      "motivo": "Sem procedimento vinculado."
+    }
+  ],
+  "processaveis": []
+}

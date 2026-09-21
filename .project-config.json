@@ -1,0 +1,51 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3C1jVaqF2js9tHb.root:OC6La1H9PBr1g9UPL3Ml@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/CVtXgzSxcBQ2arrxztUU7x?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663744625581/CVtXgzSxcBQ2arrxztUU7x",
+    "access_key_id": "ASIAZV3A2ECZJWIQJGBM",
+    "secret_access_key": "so4fhqlK+Ypna6vdIgBOuX++q4m286aPVLcFkZjt",
+    "session_token": "IQoJb3JpZ2luX2VjEDkaCXVzLWVhc3QtMSJHMEUCIByNMn/f0YSymoOR4pIhcCScuDlyhM0zqrkXfQeQsNMSAiEAyKFu6cvWL60rA9i4WL1rB2s7maxjvvRUe+DQuHYYQD4q9gMIAhAEGgw2NjUzODYwOTg4NjYiDAm+rwwsUpmVDuF/ZSrTAzWzQ/sHGyj/bMrEbwHNMQcOFdotMlhU3p13GrNOELWWgx+uqnHlotM3pfBeT61jVLA1nub6dxatrqdA28mC4DF4GJpISUy1Pd1dVe2gREdPLmW6L1+1gP2LV1/q4ZjWFKOJyXENXr31gqw5PJxAmfOJWitJaYqP0IyeZk8FS0u+DNU8Q2zJn5gyNKxYVLWzlDM1N7Qci27rKkOzE55pm1lM7yolSow2CMfJ3Vw8o5sppptaxAieYbXYdCbHEp/RYWYLDu+gOuo4buOfjJNp/x+Q00AXeGfKIvzswN8gdNdX9Uc5tCbp4Dl0qpJBe6bNo3G/A/Wy/AjnMtdaR1i2+YnlB2aP0dhBOe/RUG5oyMUOwapexHgEjm+Cwo8Ov1h5XPjgrWyeuoZB8YuIxeQF8CNLuQLsS66/yHH/rz/zimC1G5K0WdFcqRwsMp7E4krZ+Ib2HhDj7G6LFrHQdkcL7doR+6iZ9+EHa6LNw1YjD1FBABM67N/xb+09bJJwYPr2OtkF6j7cfwCdQ+2cETALezhEZY2GLfu7G82P+bJhtPH2y9XVtWqiKwSlewOwmOh2kxES8dzi0S73MOsWuQiKSA/WBoNyJ0oSrTV3cikxQ4R91hi7MMShtdQGOp0BO6Oq85YVOU0yeTVKmhZLdDFYeE9NRlVjxKvfj6loAOYFct+CLLk7IGvvNUeJc5t6gGD8VnhoMYxKzIEYuigU8DL9Db5e/xGEhvpefivAmkUf43FiEQluvgOvngGmnqiJjzkn6EZG40lmC5P5bvuyFZntk1PabU6No0hWNjplJLX/IcnpKi/95Bj/3eLoslkMvbljOABcwYjrp2m0VA==",
+    "expiration": "2026-08-25T20:22:28.000Z",
+    "backend": "GIT_BACKEND_S3"
+  },
+  "name": "mifature-portal",
+  "path": "/home/ubuntu/mifature-portal",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "GBD4aon4UA3G6DNkwo4ysM",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "EVOLUTION_API_KEY": "mifature_evolution_key_2026",
+    "EVOLUTION_API_URL": "http://34.148.112.103:8080",
+    "JWT_SECRET": "cGQL2VXhJ5x5hxDjSWE6B4",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Fature",
+    "OWNER_OPEN_ID": "BkAFgGycVQojcpqZaEkR7B",
+    "RESEND_API_KEY": "re_3Sh4B2CJ_KioNw6tzbkiX1ZVVqjq64cvC",
+    "RESEND_FROM_EMAIL": "mifatureclinic@gmail.com",
+    "STRIPE_SECRET_KEY": "sk_test_51Ts4xZPgUMgvC0SrqZklYL7TuyxQmsmpVeP1DkZUVhtoOc44J7YrW9IaJEbPdSLwIboK1ORDnje5G6Kce07OuGOI00siDsnYP4",
+    "STRIPE_WEBHOOK_SECRET": "whsec_McBXxiN5zSBKO2qOfNWgFG8DVGTyCoca",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "67dc5dc7-ed5a-4dbd-80c2-fe333890c18e",
+    "VITE_APP_ID": "CVtXgzSxcBQ2arrxztUU7x",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663744625581/wmRgYEIluiewAvAd.webp",
+    "VITE_APP_TITLE": "MIFATURE - Sistema de Faturamento Médico",
+    "VITE_FRONTEND_FORGE_API_KEY": "JZevhthm9efoDLRe88Bqzn",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im",
+    "VITE_STRIPE_PUBLISHABLE_KEY": "pk_test_51Ts4xZPgUMgvC0SrcGupcm3Kpfoab06o5odw2u6EPWM8YIp0YokUAFkp97RitihWThCP3oMjvDnZ91GMANKhra6a00IN6DP9HL"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}

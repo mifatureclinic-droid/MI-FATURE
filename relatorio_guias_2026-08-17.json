@@ -1,0 +1,83 @@
+{
+  "data": "2026-08-17",
+  "modo": "aplicar",
+  "profissionaisSelecionados": [
+    570008
+  ],
+  "atendimentosEncontrados": 3,
+  "atendimentosElegiveis": 2,
+  "gruposElegiveis": 2,
+  "bloqueados": [
+    {
+      "atendimentoId": 1830757,
+      "paciente": "CARLA BEATRIZ GURGEL DE QUEIROZ",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "AFFEAM SAÚDE",
+      "motivo": "Sem procedimento no atendimento, na série ou no histórico anterior."
+    }
+  ],
+  "grupos": [
+    {
+      "paciente": "AMANDA GISELE FONTES JATOBA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "GEAP",
+      "serieId": "programacao-20260817-avulso-1830733",
+      "atendimentoIds": [
+        1830733
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 42.32,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "ANA LUIZA PIRES BEZERRA",
+      "profissional": "JESSICA MAIA VITAL",
+      "convenio": "LUMINAR SAÚDE",
+      "serieId": "serie-1786457162018-d1vear",
+      "atendimentoIds": [
+        5910005
+      ],
+      "procedimento": "50000470 — SESSAO DE PSICOTERAPIA",
+      "valorUnitario": 60.61,
+      "origemProcedimento": "atendimento"
+    }
+  ],
+  "criadas": [
+    {
+      "guiaId": 3270001,
+      "numeroGuia": "AMN0001830733",
+      "paciente": "AMANDA GISELE FONTES JATOBA",
+      "profissional": "JESSICA MAIA VITAL",
+      "sessoes": 1,
+      "valorTotal": "42.32"
+    },
+    {
+      "guiaId": 3270002,
+      "numeroGuia": "AMN0005910005",
+      "paciente": "ANA LUIZA PIRES BEZERRA",
+      "profissional": "JESSICA MAIA VITAL",
+      "sessoes": 3,
+      "valorTotal": "181.83"
+    }
+  ],
+  "vinculadas": [
+    {
+      "guiaId": 3270001,
+      "numeroGuia": "AMN0001830733",
+      "paciente": "AMANDA GISELE FONTES JATOBA",
+      "profissional": "JESSICA MAIA VITAL",
+      "atendimentoIds": [
+        1830733
+      ]
+    },
+    {
+      "guiaId": 3270002,
+      "numeroGuia": "AMN0005910005",
+      "paciente": "ANA LUIZA PIRES BEZERRA",
+      "profissional": "JESSICA MAIA VITAL",
+      "atendimentoIds": [
+        5910005
+      ]
+    }
+  ]
+}

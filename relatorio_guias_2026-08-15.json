@@ -1,0 +1,249 @@
+{
+  "data": "2026-08-15",
+  "modo": "aplicar",
+  "profissionaisSelecionados": [
+    570011
+  ],
+  "atendimentosEncontrados": 8,
+  "atendimentosElegiveis": 8,
+  "gruposElegiveis": 8,
+  "bloqueados": [],
+  "grupos": [
+    {
+      "paciente": "NAYRA THAINA CAVALCANTE DOS SANTOS",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260815-avulso-1830677",
+      "atendimentoIds": [
+        1830677
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "IZABELLY CRUZ DA COSTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "acf14a64-c1b9-48bc-95c2-b1608bbdc573",
+      "atendimentoIds": [
+        6660001
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "HEITOR CRUZ BAPTISTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "GEAP",
+      "serieId": "programacao-20260815-avulso-1830692",
+      "atendimentoIds": [
+        1830692
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 42.32,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "LEANE ALVES DOS ANJOS",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "PROASA PARÁ",
+      "serieId": "programacao-20260815-avulso-1830694",
+      "atendimentoIds": [
+        1830694
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 50,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "ODINEI DO NASCIMENTO OLIVEIRA JUNIOR",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "GEAP",
+      "serieId": "programacao-20260815-avulso-1830696",
+      "atendimentoIds": [
+        1830696
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 42.32,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "AYLA MARIA SIQUEIRA DE ARAUJO",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260815-avulso-1830700",
+      "atendimentoIds": [
+        1830700
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "VINICIUS AUGUSTO BRASIL MACHADO",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260815-avulso-1830707",
+      "atendimentoIds": [
+        1830707
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "atendimento"
+    },
+    {
+      "paciente": "RAYMARA MENDES COSTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "convenio": "BRADESCO SAUDE",
+      "serieId": "programacao-20260815-avulso-1830705",
+      "atendimentoIds": [
+        1830705
+      ],
+      "procedimento": "50000470 — SESSÃO EM PSICOTERAPIA INDIVIDUAL POR PSICOLOGO",
+      "valorUnitario": 46.83,
+      "origemProcedimento": "atendimento"
+    }
+  ],
+  "criadas": [
+    {
+      "guiaId": 3090001,
+      "numeroGuia": "AMN0001830677",
+      "paciente": "NAYRA THAINA CAVALCANTE DOS SANTOS",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 1,
+      "valorTotal": "46.83"
+    },
+    {
+      "guiaId": 3090002,
+      "numeroGuia": "AMN0006660001",
+      "paciente": "IZABELLY CRUZ DA COSTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 4,
+      "valorTotal": "187.32"
+    },
+    {
+      "guiaId": 3090003,
+      "numeroGuia": "AMN0001830692",
+      "paciente": "HEITOR CRUZ BAPTISTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 1,
+      "valorTotal": "42.32"
+    },
+    {
+      "guiaId": 3090004,
+      "numeroGuia": "AMN0001830694",
+      "paciente": "LEANE ALVES DOS ANJOS",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 1,
+      "valorTotal": "50.00"
+    },
+    {
+      "guiaId": 3090005,
+      "numeroGuia": "AMN0001830696",
+      "paciente": "ODINEI DO NASCIMENTO OLIVEIRA JUNIOR",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 1,
+      "valorTotal": "42.32"
+    },
+    {
+      "guiaId": 3090006,
+      "numeroGuia": "AMN0001830700",
+      "paciente": "AYLA MARIA SIQUEIRA DE ARAUJO",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 1,
+      "valorTotal": "46.83"
+    },
+    {
+      "guiaId": 3090007,
+      "numeroGuia": "AMN0001830707",
+      "paciente": "VINICIUS AUGUSTO BRASIL MACHADO",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 1,
+      "valorTotal": "46.83"
+    },
+    {
+      "guiaId": 3090008,
+      "numeroGuia": "AMN0001830705",
+      "paciente": "RAYMARA MENDES COSTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "sessoes": 1,
+      "valorTotal": "46.83"
+    }
+  ],
+  "vinculadas": [
+    {
+      "guiaId": 3090001,
+      "numeroGuia": "AMN0001830677",
+      "paciente": "NAYRA THAINA CAVALCANTE DOS SANTOS",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        1830677
+      ]
+    },
+    {
+      "guiaId": 3090002,
+      "numeroGuia": "AMN0006660001",
+      "paciente": "IZABELLY CRUZ DA COSTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        6660001
+      ]
+    },
+    {
+      "guiaId": 3090003,
+      "numeroGuia": "AMN0001830692",
+      "paciente": "HEITOR CRUZ BAPTISTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        1830692
+      ]
+    },
+    {
+      "guiaId": 3090004,
+      "numeroGuia": "AMN0001830694",
+      "paciente": "LEANE ALVES DOS ANJOS",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        1830694
+      ]
+    },
+    {
+      "guiaId": 3090005,
+      "numeroGuia": "AMN0001830696",
+      "paciente": "ODINEI DO NASCIMENTO OLIVEIRA JUNIOR",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        1830696
+      ]
+    },
+    {
+      "guiaId": 3090006,
+      "numeroGuia": "AMN0001830700",
+      "paciente": "AYLA MARIA SIQUEIRA DE ARAUJO",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        1830700
+      ]
+    },
+    {
+      "guiaId": 3090007,
+      "numeroGuia": "AMN0001830707",
+      "paciente": "VINICIUS AUGUSTO BRASIL MACHADO",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        1830707
+      ]
+    },
+    {
+      "guiaId": 3090008,
+      "numeroGuia": "AMN0001830705",
+      "paciente": "RAYMARA MENDES COSTA",
+      "profissional": "OZILENE DUARTE DE LIMA DOS SANTOS",
+      "atendimentoIds": [
+        1830705
+      ]
+    }
+  ]
+}

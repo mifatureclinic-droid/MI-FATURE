@@ -1,0 +1,22 @@
+{
+  "data": "2026-08-14",
+  "modo": "aplicar",
+  "profissionaisSelecionados": [
+    570016
+  ],
+  "atendimentosEncontrados": 1,
+  "atendimentosElegiveis": 0,
+  "gruposElegiveis": 0,
+  "bloqueados": [
+    {
+      "atendimentoId": 6600017,
+      "paciente": "FERNANDA CASTELO BRANCO TAVARES",
+      "profissional": "GILZEMBERG TEIXEIRA DE MIRANDA",
+      "convenio": "BRADESCO SAUDE",
+      "motivo": "Paciente sem número de carteirinha."
+    }
+  ],
+  "grupos": [],
+  "criadas": [],
+  "vinculadas": []
+}
