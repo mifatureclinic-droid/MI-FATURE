@@ -185,12 +185,13 @@ export function Sidebar({ currentPage, onNavigate, mobileOpen = false, onCloseMo
         }}
       >
         <div className="flex items-center justify-between px-4 h-16" style={mobileHeaderStyle}>
-          <img
-            src="/manus-storage/logo_mifature_78bd4714.png"
-            alt="MIFATURE"
-            className="h-9 w-auto object-contain"
-            style={{ filter: 'brightness(0) invert(1)' }}
-          />
+          <div className="h-12 w-16 overflow-hidden rounded-lg bg-white">
+            <img
+              src="/logo-mifature.png"
+              alt="MIFATURE"
+              className="h-full w-full object-cover scale-[1.45]"
+            />
+          </div>
           <button
             onClick={onCloseMobile}
             className="p-2 rounded-lg transition-colors"

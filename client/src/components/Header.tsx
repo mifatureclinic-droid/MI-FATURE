@@ -46,12 +46,13 @@ export function Header({ userName = 'Utilizador', userAvatarUrl, onToggleMenu, o
 
         {/* Logo MIFATURE */}
         <div className="flex items-center gap-3 min-w-0">
-          <img
-            src="/manus-storage/logo_mifature_78bd4714.png"
-            alt="MIFATURE"
-            className="h-10 w-auto shrink-0 object-contain"
-            style={{ maxWidth: '120px' }}
-          />
+          <div className="h-12 w-16 shrink-0 overflow-hidden">
+            <img
+              src="/logo-mifature.png"
+              alt="MIFATURE"
+              className="h-full w-full object-cover scale-[1.45] mix-blend-multiply"
+            />
+          </div>
           <div className="hidden sm:block min-w-0">
             <p
               className="text-xs truncate tracking-wide"

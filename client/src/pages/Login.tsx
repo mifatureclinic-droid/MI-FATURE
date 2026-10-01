@@ -101,9 +101,9 @@ export function Login({ onLogin, onVoltarSite }: LoginProps) {
           {/* Logo e título */}
           <div className="flex flex-col items-center mb-8">
             <img
-              src="/manus-storage/logo_mifature_78bd4714.png"
+              src="/logo-mifature.png"
               alt="MIFATURE"
-              className="h-28 w-auto object-contain mb-2"
+              className="h-48 w-auto object-contain -my-6 mix-blend-multiply"
             />
             <div
               className="w-full h-px mt-2 mb-3"

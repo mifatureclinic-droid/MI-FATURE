@@ -69,7 +69,7 @@ const MOCKUP_WHATSAPP =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663744625581/CVtXgzSxcBQ2arrxztUU7x/mockup_whatsapp_assinatura-EPV5EVpTrVLaJzkQFuFq2Q.webp";
 const MOCKUP_HISTORICO =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663744625581/CVtXgzSxcBQ2arrxztUU7x/mockup_historico_assinaturas-GvdEe8dR7VtvrpPAJofwvE.webp";
-const LOGO_IMG = "/manus-storage/logo_mifature_78bd4714.png";
+const LOGO_IMG = "/logo-mifature.png";
 
 // ─── Hook de Intersection ──────────────────────────────────────────────────
 function useIntersection(ref: React.RefObject<Element | null>, threshold = 0.15) {
@@ -1969,17 +1969,20 @@ function Footer({ onSistema }: { onSistema: () => void }) {
             <button
               onClick={() => scrollTo("#inicio")}
               style={{ background: "none", border: "none", cursor: "pointer", padding: 0, marginBottom: 8, display: "block" }}
-              onMouseEnter={e => { const img = e.currentTarget.querySelector("img") as HTMLImageElement; if (img) { img.style.filter = "brightness(0) invert(1) drop-shadow(0 4px 24px rgba(255,255,255,0.5))"; img.style.transform = "scale(1.04)"; } }}
-              onMouseLeave={e => { const img = e.currentTarget.querySelector("img") as HTMLImageElement; if (img) { img.style.filter = "brightness(0) invert(1) drop-shadow(0 2px 12px rgba(255,255,255,0.2))"; img.style.transform = "scale(1)"; } }}
+              onMouseEnter={e => { const img = e.currentTarget.querySelector("img") as HTMLImageElement; if (img) { img.style.boxShadow = "0 8px 32px rgba(255,255,255,0.35)"; img.style.transform = "scale(1.04)"; } }}
+              onMouseLeave={e => { const img = e.currentTarget.querySelector("img") as HTMLImageElement; if (img) { img.style.boxShadow = "0 4px 20px rgba(0,0,0,0.25)"; img.style.transform = "scale(1)"; } }}
             >
               <img
                 src={LOGO_IMG}
                 alt="mifature logo"
                 style={{
                   height: 240,
-                  width: "auto",
-                  filter: "brightness(0) invert(1) drop-shadow(0 2px 12px rgba(255,255,255,0.2))",
-                  transition: "transform 0.35s cubic-bezier(0.23,1,0.32,1), filter 0.35s ease",
+                  width: 240,
+                  objectFit: "cover",
+                  background: "#fff",
+                  borderRadius: 24,
+                  boxShadow: "0 4px 20px rgba(0,0,0,0.25)",
+                  transition: "transform 0.35s cubic-bezier(0.23,1,0.32,1), box-shadow 0.35s ease",
                 }}
               />
             </button>

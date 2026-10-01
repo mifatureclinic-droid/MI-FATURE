@@ -289,12 +289,13 @@ export function AssinarSessaoGuia({ token: tokenProp }: { token?: string } = {})
       <div className="w-full max-w-sm mx-auto space-y-4">
         {/* Cabeçalho */}
         <div className="rounded-2xl p-6 text-center shadow-lg" style={{ background: 'linear-gradient(135deg, #3d5229 0%, #2d3d1e 100%)' }}>
-          <img
-            src="/manus-storage/logo_mifature_78bd4714.png"
-            alt="MIFATURE"
-            className="mx-auto mb-3"
-            style={{ height: '80px', width: 'auto', filter: 'brightness(0) invert(1)' }}
-          />
+          <div className="mx-auto mb-3 h-24 w-32 overflow-hidden rounded-xl bg-white">
+            <img
+              src="/logo-mifature.png"
+              alt="MIFATURE"
+              className="h-full w-full object-cover scale-[1.45]"
+            />
+          </div>
           <div className="border-t border-white/20 pt-3 mt-1">
             {(sessao as any).nomeClinica && (
               <p className="text-sm font-bold text-white mb-1 tracking-widest uppercase" style={{ letterSpacing: '0.12em' }}>{(sessao as any).nomeClinica}</p>

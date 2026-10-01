@@ -8,7 +8,7 @@ import { useRef, useState, useCallback } from "react";
 import { useParams } from "wouter";
 import { trpc } from "@/lib/trpc";
 
-const LOGO_MIFATURE = "/manus-storage/logo_mifature_78bd4714.png";
+const LOGO_MIFATURE = "/logo-mifature.png";
 
 function formatarData(d: string | Date | null | undefined) {
   if (!d) return "—";
@@ -407,7 +407,7 @@ export default function AssinarGuia({ token: tokenProp }: { token?: string } = {
 
       {/* Header sticky */}
       <header style={{ background: "#0D2A1E", padding: "14px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 10 }}>
-        <img src={data?.clinicaLogoUrl || LOGO_MIFATURE} alt={data?.clinicaNome || "MiFatureClinic"} style={{ height: 40, maxWidth: 160, objectFit: 'contain', filter: data?.clinicaLogoUrl ? 'none' : 'brightness(0) invert(1)' }} />
+        <img src={data?.clinicaLogoUrl || LOGO_MIFATURE} alt={data?.clinicaNome || "MiFatureClinic"} style={{ height: 44, maxWidth: 160, objectFit: 'contain', ...(data?.clinicaLogoUrl ? {} : { background: '#fff', borderRadius: 8, padding: 2 }) }} />
         <div style={{ display: "flex", alignItems: "center", gap: 5, background: "rgba(106,184,138,0.15)", border: "1px solid rgba(106,184,138,0.3)", borderRadius: 100, padding: "5px 12px" }}>
           <div style={{ width: 5, height: 5, borderRadius: "50%", background: "#6AB88A" }} />
           <span style={{ fontSize: 10, fontWeight: 700, color: "#6AB88A", textTransform: "uppercase", letterSpacing: "0.1em" }}>Seguro</span>
