@@ -1,0 +1,1 @@
+ALTER TABLE `bradescoCredenciais` ADD `modoExecucao` enum('assistido_sob_demanda') DEFAULT 'assistido_sob_demanda' NOT NULL;

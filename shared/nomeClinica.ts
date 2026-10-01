@@ -1,0 +1,1 @@
+export const NOME_FANTASIA_CLINICA = "CLINICA CLIPSI";

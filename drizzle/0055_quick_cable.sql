@@ -1,0 +1,1 @@
+ALTER TABLE `prontuarios` ADD `tipoRegistro` enum('anamnese','continuidade') DEFAULT 'continuidade' NOT NULL;

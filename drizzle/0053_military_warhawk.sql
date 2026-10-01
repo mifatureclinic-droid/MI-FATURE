@@ -1,0 +1,1 @@
+ALTER TABLE `pagamentos_atendimento` ADD `formasPagamento` text;

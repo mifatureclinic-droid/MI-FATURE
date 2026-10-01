@@ -1,0 +1,1 @@
+ALTER TABLE `assinaturasGuias` ADD `datasAtendimento` text;
