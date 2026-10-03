@@ -1,6 +1,7 @@
 import { COOKIE_NAME } from "@shared/const";
 import { ForbiddenError } from "@shared/_core/errors";
 import { parse as parseCookieHeader } from "cookie";
+import { createHash } from "node:crypto";
 import type { Request } from "express";
 import { SignJWT, jwtVerify } from "jose";
 import type { User } from "../../drizzle/schema";
@@ -26,7 +27,15 @@ class SDKServer {
   }
 
   private getSessionSecret() {
-    const secret = ENV.cookieSecret;
+    // Without JWT_SECRET, derive a stable private key from DATABASE_URL (which already contains a secret password).
+    const secret =
+      ENV.cookieSecret ||
+      (ENV.databaseUrl
+        ? createHash("sha256").update(`mifature-session:${ENV.databaseUrl}`).digest("hex")
+        : "");
+    if (!secret) {
+      throw new Error("JWT_SECRET (or DATABASE_URL) must be set to sign sessions");
+    }
     return new TextEncoder().encode(secret);
   }
 
