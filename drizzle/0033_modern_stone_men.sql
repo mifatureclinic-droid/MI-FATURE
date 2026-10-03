@@ -1,0 +1,21 @@
+CREATE TABLE `extrato_bancario` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`banco` varchar(50) NOT NULL DEFAULT 'Bradesco',
+	`agencia` varchar(20),
+	`conta` varchar(30),
+	`data` date NOT NULL,
+	`descricao` text NOT NULL,
+	`documento` varchar(50),
+	`credito` decimal(15,2),
+	`debito` decimal(15,2),
+	`tipo` enum('credito','debito','saldo') NOT NULL,
+	`categoria` varchar(100),
+	`conciliado` tinyint DEFAULT 0,
+	`contaFinanceiraId` int,
+	`arquivoOrigem` varchar(255),
+	`importadoPor` int,
+	`importadoEm` timestamp DEFAULT (now()),
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `extrato_bancario_id` PRIMARY KEY(`id`)
+);

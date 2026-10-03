@@ -1,0 +1,1 @@
+ALTER TABLE `profissionais` ADD `duracaoPadrao` int DEFAULT 30 NOT NULL;

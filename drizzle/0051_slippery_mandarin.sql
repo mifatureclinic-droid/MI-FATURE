@@ -1,0 +1,1 @@
+ALTER TABLE `bradescoAutorizacoes` MODIFY COLUMN `status` enum('pendente_documentacao','pendente','aguardando_acao_humana','enviado_portal','liberada','autorizado','negado','erro','cancelado') NOT NULL DEFAULT 'pendente';

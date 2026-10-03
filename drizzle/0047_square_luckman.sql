@@ -1,0 +1,2 @@
+ALTER TABLE `contas_pagar` ADD `pagamentoAtendimentoId` int;--> statement-breakpoint
+ALTER TABLE `contas_pagar` ADD CONSTRAINT `contas_pagar_pagamentoAtendimentoId_unique` UNIQUE(`pagamentoAtendimentoId`);
